@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>My site</title>
+	<style>
+		.main {
+			flex-grow: 1;
+		}
+		.article-image1 {
+			position: relative;
+			margin-top: 4px;
+			width: 1000px;
+			height: 113px;
+			flex-shrink: 0;
+			padding-left: 30px;
+			padding-bottom: 20px;
+		}
+		.article-image1 img {		
+			width: 1000px;		
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<nav class="main-nav">
+			<ul class="nav-list">
+				<li><a href="#">Сайты</a></li>
+				<li><a href="headers.html" class="nav-link-current">Header's</a></li>
+				<li><a href="#">Вторые блюда</a></li>
+				<li><a href="#">Десерты</a></li>
+				<li><a href="#">Выпечка</a></li>
+				<li><a href="#">Соусы</a></li>
+				<li><a href="#">Напитки</a></li>
+				<li><a href="#">Закуски</a></li>
+				<li><a href="#">Заготовки</a></li>
+			</ul>
+			<ul class="nav-list">
+				<li><a href="#">О посуде</a></li>
+				<li><a href="#">Лайфхаки</a></li>
+				<li><a href="#">Статьи</a></li>
+			</ul>
+			<ul class="socials">
+				<li><a href="#"><img src="img/vkontakte.svg" alt="vk" width="23" height="14"></a></li>
+				<li><a href="#"><img src="img/facebook.svg" alt="facebook" width="9" height="18"></a></li>
+				<li><a href="#"><img src="img/instagram.svg" alt="instagram" width="23" height="14"></a></li>
+			</ul>
+		</nav>				
+		<div class="main">
+			<header class="page-header">
+				<a class="logo" href="index.html">
+					<img src="img/logotype.svg" width="170" height="51" alt="Logo">
+					<span class="visually-hidden">На главную</span>
+				</a>
+			</header>
+			<article class="article">
+				<div class="article-image1">
+					<a href="https://zakv-v.github.io/main-menu/"><img src="img/header-1.jpg" width="470" height="290" alt="Сырники"></a>
+					<a href="https://zakv-v.github.io/main-menu/">https://zakv-v.github.io/main-menu/</a>
+				</div>
+				
+				<div class="article-main">
+					<ul class="breadcrumbs">
+						<li><a href="" class="breadcrumb-link">Главная</a></li>
+						<li><a href="" class="breadcrumb-link">Header's</a></li>
+					</ul>
+					<div class="text-content">
+						<h1 class="title">Хедеры</h1>
+						<p>Здесь я верстаю хедеры разной сложности</p>
+					</div>
+				</div>
+			</article>
+		</div>		
+	</div>	
+</body>
+</html>
